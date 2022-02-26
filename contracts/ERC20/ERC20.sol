@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.11;
 
-import "./IERC20.sol";
-import "./IERC20Metadata.sol";
+import "./interfaces/IERC20.sol";
+import "./interfaces/IERC20Metadata.sol";
 
 contract ERC20 is IERC20, IERC20Metadata {
     
